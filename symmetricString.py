@@ -6,8 +6,8 @@ def is_symmetric(s):
     else :
         return s[: mid ] == s [mid +1:]
     
-
-s = "vmava"   # Example
+ # Example
+s = "vmavma"  # symmetric
 
 
 if is_symmetric(s):
